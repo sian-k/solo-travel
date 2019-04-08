@@ -1,0 +1,128 @@
+body{
+  background-color: lightgrey
+}
+
+h1{
+  font-family: sans-serif;font-size: 38;color: #d48d8d; text-align: center; text-shadow: 3px 3px #bb4c4c;
+  filter: brightness(95%);
+}
+
+@keyframes light {
+  to {
+    transform: translate(20%, 8%);
+  }
+}
+
+
+h2{
+  font-family: Tahoma;font-size: 18.5; color: #c97171; text-align:inherit; font-style: italic;
+  animation: light 5s linear infinite; mix-blend-mode: color-burn; animation-duration: 11s;
+  text-shadow: 1px 1px #d48d8d;
+}
+
+h6{
+  font-family: Tahoma;font-size: 17; color: #c97171; text-align:inherit; font-style: normal;
+
+}
+
+.img-displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  filter: sepia(30%);
+}
+
+img {
+filter: opacity(75%)sepia(40%)grayscale(10%);
+}
+
+
+.social-nav {
+    right: 10px;
+    top: 55%;
+    position: fixed;
+    z-index: 999999;
+    cursor: pointer;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: block;
+}
+
+.wait {cursor: wait;}
+
+#navigation-bar:hover {
+  background-color: lightblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form {
+  border: 1.5px solid #d48d8d;background-color: #E0E0E0;
+}
+
+input[type=text], input[type=password] {
+  width: 20%;
+  padding: 8px 8px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #d48d8d;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #d48d8d;
+  color: white;
+  padding: 8px 8px;
+  margin: 1px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+button:hover {
+  opacity: 0.4;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 8px 10px;
+  background-color: #d48d8d;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 250px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 90%;
+  }
+}
