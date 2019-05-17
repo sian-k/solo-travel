@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+*{box-sizing:border-box;}
+
+input[type=text], select,textarea {
+  width:100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top:6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color:#d48484;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>Destinations</h1>
+
+<div class="container">
+    <form action="action_page.php">
+
+      <label for="country">Country</label>
+      <select id-"country" name="country">
+        <option value="austrilia">Austrilia</option>
+        <option value="canada">Canada</option>
+        <option value="FRANCE">France</option>
+        <option value="Greece">Greece</option>
+        <option value="India">India</option>
+        <option value="Russia">Russia</option>
+        <option value="spain">Spain</option>
+        <option value="Turkey">Turkey</option>
+        <option value="usa">USA</option>
+        <option value="united kingdom">United Kingdom</option>
+     </select>
+
+     <label for="accomodation">Accomodation</label>
+     <select id-"accomodation" name="Accomodation">
+       <option value="Apartments">Apartments</option>
+       <option value="Cabins">Cabins</option>
+       <option value="Resorts">Resorts</option>
+       <option value="Hotel">Hotel</option>
+       <option value="Hostel">Hostel</option>
+      <option value="united kingdom">United Kingdom</option>
+      <option value="Villas">Villas</option>
+     </select>
+
+      <label for="Check In">Check In</label>
+      <select id-"Date" name="Check In">
+       <option value="Date">1st June</option>
+      <option value="Date">2nd June</option>
+    </select>
+      <label for="Check Out">Check Out</label>
+      <select id-"Date" name="Check Out">
+      <option value="Date">3rd June</option>
+     </select>
+
+       <input type="submit" value="search">
+
+   </form>
+ </div>
+
+
+
+
+
+</html>
