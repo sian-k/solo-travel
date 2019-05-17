@@ -77,6 +77,8 @@ span.psw {
 
 
 body {
+  width: 80%;
+  margin: 0 auto;
   background-color: lightgrey;
   color: #c97171;
   font-family: Tahoma;
