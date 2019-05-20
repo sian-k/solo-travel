@@ -1,3 +1,4 @@
+header {}
 body{
   background-color: lightgrey;
   width: 80%;
@@ -39,7 +40,9 @@ h6{
   text-align:inherit;
   font-style: normal;
 }
-
+li {
+  display: inline;
+}
 .topnav {
   background-color:#d48d8d;
   overflow: hidden;
@@ -103,7 +106,8 @@ filter: opacity(75%)sepia(40%)grayscale(10%);
 }
 
 form {
-  border: 1.5px solid #d48d8d;background-color: #E0E0E0;
+  border: 1.5px solid #d48d8d;
+  background-color: #E0E0E0;
 }
 
 input[type=text], input[type=password] {
